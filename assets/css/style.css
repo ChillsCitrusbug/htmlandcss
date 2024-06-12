@@ -1,0 +1,85 @@
+  body {
+    background-color: beige;
+  }
+
+  fieldset{
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  legend{
+    border: solid;
+    border-color: white;
+    padding: 0px 25px;
+    text-align: center;
+    font-size:xx-large;
+    color: beige;
+    background-color: brown;
+  }
+
+  .subheadings{
+    color: blue;
+    background-color: white;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    border: 2px solid blue;
+    border-radius: 5px;
+  }
+
+  .headingcontents{
+    color: rgb(60, 109, 60);
+    background-color: rgb(173, 241, 177);
+    width: auto;
+    height: auto;
+    border: 3px dashed green ;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .mainheading{
+    color: brown;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 35px;    
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: beige;
+    border: 2px solid brown;
+    border-radius: 5px;
+  }
+
+  .paracontents{
+    color: rgb(15, 4, 68);
+    background-color: rgb(151, 142, 192);
+    width: auto;
+    height: auto;
+    border: 5px ridge rgb(0, 0, 0) ;
+    margin: auto;
+    padding: 10px;
+  }
+
+  form{
+    color: brown;
+    background-color: beige;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: auto;
+    border: 3px dotted brown;
+  }
+
+  p{
+    color: navy;
+  }
+
+  a{
+    color: rgb(158, 81, 158);
+  }
+
+  img{
+    box-shadow: inset;
+    border: 10px groove black;
+  }
