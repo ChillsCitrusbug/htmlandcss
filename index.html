@@ -10,15 +10,21 @@
     <!-- matches the screen's width in device-independent pixels. -->
     <title>Learn HTML and CSS</title>
     <!-- <title>: This element sets the title of the HTML document, which is displayed in the browser's title bar or tab. -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+      * {
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
     <!-- <body>: This element represents the content of the HTML document that is displayed in the browser window. -->
-    <h1>HTML and CSS</h1>
-    <h1>
-      <a href="https://www.w3schools.com/html/html_headings.asp"
-        >HTML Headings</a
-      >
-    </h1>
+    <h1 class="mainheading">HTML and CSS</h1>
+
+    <h2 class="subheadings">
+      HTML Headings
+    </h2>
+    <div class="headingcontents">
     <h1>largest heading</h1>
     <!-- <h1> to <h6>: These elements represent headings of different levels, with `<h1>` being the highest (most important) and `<h6>` being the lowest. -->
     <h2>second heading</h2>
@@ -26,29 +32,35 @@
     <h4>forth heading</h4>
     <h5>fifth heading</h5>
     <h6>smallest heading</h6>
+    </div>
 
-    <h1>
-      <a href="https://www.w3schools.com/html/html_paragraphs.asp"
-        >HTML Paragraphs</a
-      >
+    <h1 class="subheadings">
+      HTML Paragraphs
     </h1>
+    <div class="paracontents">
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa facilis,
       recusandae ullam at distinctio aut excepturi blanditiis, sit consequatur
       temporibus placeat quam natus, et exercitationem consectetur optio quas
       quis. Autem.
     </p>
+
     <br />
     <!-- <p>: This element represents a paragraph of text. -->
+
     <hr />
     <!-- for horizontal line -->
+
     <br />
     <!-- for next line -->
+
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit,
       nesciunt.
     </p>
+
     <hr />
+
     <pre> <!-- displays exactly like text which you have written in element same spaces same line breaks -->
         Lorem ipsum dolor sit amet consectetur adipisicing
                     elit. Nesciunt provident quod aut dignissimos
@@ -56,15 +68,20 @@
             adipisci eaque.
     </pre>
 
-    <h1>The anchor tag</h1>
+  </div>
+
+    <h1 class="subheadings">The anchor tag</h1>
+
     <a href="https://citrusbug.com/">Citrusbug Technolabs</a><br />
     <!-- <a>: This element defines a hyperlink. It is used to create links to other web pages, files, or specific parts of a page. -->
 
-    <h1>The image tag</h1>
+    <h1 class="subheadings">The image tag</h1>
+
     <img
       src="https://media.licdn.com/dms/image/C510BAQEVX6JUv4_U3w/company-logo_200_200/0/1630631870725/citrusbug_logo?e=2147483647&v=beta&t=Dob96-LJulJDZqxYLD-f80cgndkWNdCILnoG0iLVm8o"
       alt="Citrusbug Technolabs"
     /><br />
+
     <!-- Absolute URL -->
     <img
       src="./assets/images/citrusbug_logo.jpg"
@@ -73,7 +90,8 @@
     <!-- Relative path -->
     <!-- <img>: This element is used to embed an image in the HTML document. -->
 
-    <h1>Unordered list and list items</h1>
+    <h1 class="subheadings">Unordered list and list items</h1>
+
     <ul>
       <!-- <ul> and <li>: These elements are used to create an unordered list. `<ul>` represents the list container, and `<li>` represents each list item. -->
       <li>Lays</li>
@@ -81,7 +99,14 @@
       <li>Balaji</li>
     </ul>
 
-    <h1>Ordered list and list items</h1>
+    <ul>
+      <li>lays</li>
+      <li>maggie</li>
+      <li>Chips</li>
+    </ul>
+
+    <h1 class="subheadings">Ordered list and list items</h1>
+
     <ol>
       <!-- <ol> and <li>: These elements are used to create an ordered (numbered) list. `<ol>` represents the list container, and `<li>` represents each list item. -->
       <li>boil milk</li>
@@ -89,16 +114,12 @@
       <li>add sugar</li>
     </ol>
 
-    <ul>
-        <li>lays</li>
-        <li>maggie</li>
-        <li>Chips</li>
-    </ul>
     <ol>
         <li>boil water</li>
         <li>drop tea and sugar</li>
         <li>pour milk</li>
     </ol>
+
     <dl>
         <dt>coffee
             <dd>black hot drink</dd>
@@ -110,24 +131,7 @@
         </dt>
     </dl>
 
-    <table>
-        <tr>
-            <td>Sr No</td>
-            <td>name</td>
-            <td>id</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-        </tr>
-    </table>
-    <h3>HTML Tables</h3>
+    <h2 class="subheadings">HTML Tables</h2>
 
     <table>
         <caption>Details</caption>
@@ -152,15 +156,34 @@
             <td>jaymin.citrusbug@gmail.com</td>
         </tr>
     </table>
+    
+    <table>
+        <tr>
+            <td>Sr No</td>
+            <td>name</td>
+            <td>id</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
 
-    <h1>The div element</h1>
+    <h1 class="subheadings">The div element</h1>
+
     <div style="color: red">
       <!-- <div>: This element is a generic container that allows you to group other HTML elements together and apply styles or manipulate them as a group. -->
       <h4>this h4 is in div</h4>
       <p>this p is also in div</p>
     </div>
 
-    <h1>The span element</h1>
+    <h1 class="subheadings">The span element</h1>
     <p>
       My mother has
       <span style="color: blue; font-weight: bold">blue</span> eyes and my
@@ -170,10 +193,14 @@
     </p>
     <!-- <span>: This element is an inline container that allows you to apply styles or manipulate a specific portion of text within a larger element. -->
 
+
+    <h1 class="subheadings">Form</h1>
+
     <form action="">
       <!-- <form>: The main element that defines a form. It wraps all the form-related elements.Example: `<form action="/submit-form" method="POST"> ... </form>` -->
       <fieldset>
         <legend>Form</legend>
+
         <label for="name">Name:</label>
         <input type="text" id="name" /><br /><br />
         <label for="username">Username:</label>
