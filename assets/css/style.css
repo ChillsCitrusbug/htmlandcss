@@ -83,3 +83,162 @@
     box-shadow: inset;
     border: 10px groove black;
   }
+
+  html{
+    font-size: 16px;
+  }
+
+  .container{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+
+  h1.hi{
+    font-size: 2rem;
+    color: #0077cc;
+  }
+  p.hi{
+    font-size: 1rem;
+    color: #0077cc;
+  } 
+
+
+
+    body {
+        font-size: 20px;
+    }
+    .containers {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    }
+    p.pa {
+    font-size: 2em;
+    color: #0077cc;
+    }
+
+
+    .parent-element {
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+    }
+    p.par {
+    font-size: 2em;
+    color: #0077cc;
+    }
+
+
+    .percentage {
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        /* display: flex;
+        align-items: center; */
+        /* justify-content: center; */
+        background-color: #000000;
+      }
+      .box {
+        width: 50%;
+        height: 50%;
+        background-color: #0077cc;
+      }
+
+      .viewport-height {
+        height: 50vh;
+        width: 200vw;
+        background-color: bisque;
+    }
+
+    body.ch {
+        font-family: 'Courier New', monospace; 
+        margin: 0;
+      }
+      p.ch {
+          font-size: 5ch; 
+          line-height: 1.5; 
+        }
+
+/*css display*/
+
+        .display{
+            margin: 10px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .boxxx{
+            display: inline;
+            width: 300px;
+            height: 300px;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .spann{
+            border: 2px solid green;
+            width: 300px;
+            height: 200px;
+            margin: 5px;
+            padding: 5px;
+            display: inline-block;
+            display: block;
+        }
+        .divv{
+            border: 1px solid red;
+            width: 300px;
+            height: 300px;
+            margin: 25px;
+            padding: 50px;
+        }
+
+/*css flexbox*/
+
+        .flexbox{
+            background-color: beige;
+            border: 5px solid black;
+            margin: 2px;
+            padding: 2px;
+            display: flex;
+            flex-direction: row;
+            height: 800px;
+            /* flex-wrap:wrap; */
+            justify-content: start;
+            align-items: start; 
+            align-content: center;
+        }
+
+        .boxx{
+            height: 200px;
+            width: 200px;
+            border: 2px solid brown;
+            margin: 2px;
+            padding: 2px;
+        }
+        #boxx1{
+            background-color: aqua;
+            /* order: 500; */
+            /* flex-shrink: 4; */
+            /* flex-grow: 1; */
+            /* align-self: end; */
+        }
+        #boxx2{
+            background-color: blue;
+            /* flex-grow: 1; */
+        }
+        #boxx3{
+            background-color: orange;
+            /* flex-grow: 1; */
+        }
+        #boxx4{
+            background-color: brown;
+            /* order: -1; */
+            /* flex-grow: 1; */
+            flex-basis: 400px;
+        }
