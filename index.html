@@ -196,7 +196,7 @@
 
     <h1 class="subheadings">Form</h1>
 
-    <form action="">
+    <form id="form" action="">
       <!-- <form>: The main element that defines a form. It wraps all the form-related elements.Example: `<form action="/submit-form" method="POST"> ... </form>` -->
       <fieldset>
         <legend>Form</legend>
@@ -328,6 +328,95 @@
         <input type="submit" value="Submit" /><br /><br />
         <input type="reset" value="Reset" /><br /><br />
       </fieldset>
-    </form>
+    </form><br><br>
+
+    <h1 class="subheadings">anchor tag's other uses</h1>
+    <a href="./assets/images/citrusbug_logo.jpg" download="citrusbug_logo.jpg">download citrusbug_logo</a><br><br>
+    <a href="#">go on the top</a><br><br>
+    <a href="#top">go on the top</a><br><br>
+    <a href="#form">go on the form</a><br><br>
+    <a href="mailto:chills.citrusbug@gmail.com">mail</a><br><br>
+    <a href="tel:+919427003221">+919427003221</a><br><br>
+    <a href="javascript:alert('Hello World!');">Execute JavaScript</a><br><br>
+
+
+    <img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap">
+    <map id="planetmap" name="planetmap">
+    <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+    <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+    <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+    </map><br><br>
+
+    <div class="container">
+      <h1 class="hi">Best Practices for CSS units</h1>
+      <p class="hi">This is a paragraph with font size set to 2rem</p>
+    </div>
+
+    <div class="containers">
+      <p class="pa">This is a paragraph with the font size set to 2em</p>
+    </div>
+
+    <div class="parent-element">
+      This is the nearest parent
+      <div class="child-element">
+        <p class="par">This is the child</p>
+      </div>
+    </div><br><br>
+
+    <div class="percentage">
+      <div class="box"></div>
+    </div>
+
+    <div class="viewport-height"></div>
+
+    <div class="ch">
+      <p class="ch">Some text specified with ch unit</p>
+    </div><br><br><br><br><br>
+
+
+<!--css display-->
+
+    <div class="display">
+
+     <div class="divv">
+        Welcome
+     </div>
+
+     <div class="divv">
+        Welcome 2.0
+     </div>
+
+
+     <div class="boxxx">
+        Welcome
+     </div>
+
+     <span class="spann">
+      This is chills
+     </span>
+
+     <span class="spann">
+        THis is chills 2.0
+     </span>
+
+    </div><br><br><br><br><br>
+
+<!--css flexbox-->
+
+    <div class="flexbox">
+      <div class="boxx" id="boxx1"></div>
+      <div class="boxx" id="boxx2"></div>
+      <div class="boxx" id="boxx3"></div>
+      <div class="boxx" id="boxx4"></div>
+    </div><br><br><br><br><br>
+
+
+<!--css grid - we will use css grid to create any layout -->
+
+    
+
+
+
+
   </body>
 </html>
