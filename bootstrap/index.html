@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <!-- A. Colors and Typography -->
+    A. Colors and Typography <br><br>
+
+    <!-- heading tags -->
+    Topic-1-heading tags <br><br>
+    <h1>bootstrap</h1>
+    <h2>this is h2</h2>
+    <h3>this is h3</h3>
+    <h2 class="h6">this is h2 looks like h3</h2>
+    <h6 class="h1">this is h6 looks like h1</h2>
+
+    <br><br><hr><br><br>
+
+    <!-- display headings -->
+    Topic-2-display Headings <br><br>
+    <h1 class="display-1">display-1 heading</h1>
+    <h1 class="display-4">display-4 heading</h1>
+    <h1 class="display-6">display-6 heading</h1>
+    <p class="display-1">p tag with display-1 class</p>
+
+    <br><br><hr><br><br>
+
+    <!-- lead text & alignment -->
+    Topic-3-lead text & alignment <br><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <p class="lead text-center">hello chills</p>
+    <p class="lead text-end">hello chills</p>
+    <p class="lead text-start">hello chills</p> <!-- default start -->
+    <p class="lead">hello chills</p>
+
+    <br><br><hr><br><br>
+
+    <!-- text decoration & font weight -->
+    Topic-4-text decoration & font weight <br><br>
+    <p class="text-decoration-underline">this is underlined text</p>
+    <p class="text-decoration-line-through">this is line through text</p>
+    <p class="fw-bold">this is bold text</p>
+    <small>this is small text</small>
+
+    <br><br><hr><br><br>
+
+    <!-- text colors -->
+    Topic-5-text colors <br><br>
+    <p class="text-primary">theme primary color</p>
+    <p class="text-secondary">theme secondary color</p>
+    <p class="text-info">theme info color</p>
+    <p class="text-warning">theme warning color</p>
+    <p class="text-success">theme success color</p>
+    <p class="text-danger">theme danger color</p>
+    <p class="text-muted">theme muted color</p> <!-- here it will mute default black and it will turn some grayish -->
+    <p class="text-light" style="background-color: black;">theme light color</p>
+    <p class="text-dark">theme dark color</p> <!-- default black -->
+
+    <br><br><hr><br><br>
+
+    <!-- bg colors -->
+    Topic-6-bg colors <br><br> 
+    <p class="text-white bg-primary">white text on primary bg</p>
+    <p class="text-white bg-secondary">white text on secondary bg</p>
+    <p class="text-light bg-danger">light text on danger bg</p>
+    <p class="bg-info">default text on info bg</p>
+
+
+    <br><br><br><br><hr><br><br><br><br>
+
+
+
+    <!-- B. Buttons and Button Groups -->
+    B. Buttons and Button Groups <br><br>
+
+    <!-- basic buttons -->
+    Topic-1-basic buttons <br><br>
+    <button class="btn btn-primary">primary button</button>
+    <button class="btn btn-secondary">secondary button</button>
+    <button class="btn btn-info">info button</button>
+    <button class="btn btn-warning">warning button</button>
+    <button class="btn btn-success">success button</button>
+    <button class="btn btn-danger">danger button</button>
+    <button class="btn btn-light">light button</button>
+    <button class="btn btn-dark">dark button</button>
+
+    <br><br><hr><br><br>
+
+    <!-- anchor tags as buttons -->
+    Topic-2-anchor tags as buttons <br><br>
+    <a href="#" class="btn btn-info">info anchor tag button</a>
+    <a href="#" class="btn btn-success">info success tag button</a>
+
+    <br><br><hr><br><br>
+
+    <!-- button sizes -->
+    Topic-3-button sizes <br><br>
+    <button class="btn btn-lg btn-danger">large danger button</button>
+    <button class="btn btn-sm btn-warning">small warning button</button> <!-- default medium -->
+
+    <br><br><hr><br><br>
+
+    <!-- outlined styles -->
+    Topic-4-outlined styles <br><br>
+
+    <button class="btn btn-outline-primary">outlined primary button</button>
+    <button class="btn btn-outline-secondary btn-lg">large outlined secondary button</button>
+
+    <br><br><hr><br><br>
+
+    <!-- button groups -->
+    Topic-5-button groups <br><br>
+
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary">button1</a>
+        <a href="#" class="btn btn-warning">button2</a>
+        <a href="#" class="btn btn-success">button3</a>
+    </div>
+
+
+    <br><br><br><br><hr><br><br><br><br>    
+
+
+
+    <!-- C. Utility Classes -->
+    C. Utility Classes <br><br>
+
+    <!-- margin and padding -->
+    Topic-1-margin and padding <br><br>
+    <div class="bg-primary m-1 p-1">small margin and padding</div> <!-- m:margin, p:padding -->
+    <div class="bg-primary m-5 p-5">large margin and padding</div>
+    <div class="bg-primary my-3 px-5">margin in y direction and padding in x direction</div> <!-- x:horizontal, y:vertical -->
+    <div class="bg-primary mt-3 mb-4 ms-5 me-1 ps-5 pt-4 pe-2 pb-1">margin and padding for each direction</div> <!-- t:top, b:bottom, s:start(left), e:end(right) -->
+
+    <br><br><hr><br><br>
+
+    <!-- borders -->
+    Topic-2-borders <br><br>
+    <div class="m-3 p-3 border">default border</div>
+    <div class="m-3 p-3 border-top border-end">individual border</div>
+    <div class="m-3 p-3 border-start border-success">border success color at start</div>
+    <div class="m-3 p-3 border-start border-danger border-5">thicker danger border at start</div>
+    <div class="m-3 p-3 rounded border border-5">rounded corners</div>
+    <div class="m-3 p-3 rounded-pill border border-5">rounded pill corners</div>
+    <div class="m-3 p-3 rounded-pill bg-primary">rounded pill corners</div>
+
+    <br><br><hr><br><br>
+
+    <!-- box shadow -->
+    Topic-3-box shadow <br><br>
+    <div class="m-3 p-3 shadow">element with small box shadow</div> <!-- default medium -->
+    <div class="m-3 p-3 shadow-sm">element with small box shadow</div>
+    <div class="m-3 p-3 shadow-lg">element with large box shadow</div>
+
+    <br><br><hr><br><br>
+
+    <!-- font weight -->
+    Topic-4-font weight <br><br>
+    <p class="fw-bold">bold text</p>
+    <p class="fw-bolder">bold text</p>
+    <p>normal text</p>
+    <p class="fw-light">light text</p>
+    <p class="fst-italic">italic text</p>
+    <p class="fst-italic fw-light">italic light text</p>
+
+
+    <br><br><br><br><hr><br><br><br><br>    
+
+
+
+    <!-- D. Containers -->
+    D. Containers <br><br>
+
+    <div class="container my-5">
+        <h2>normal container</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum illo explicabo earum voluptatibus consectetur omnis dignissimos voluptas, architecto nesciunt iure optio vero ea, rerum tempore. Iusto cumque cupiditate sapiente odio.</p>
+    </div>
+
+    <div class="container-fluid">
+        <h2>fluid container</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptas harum aut magnam natus eum laboriosam molestiae consequuntur? Fugiat delectus cumque fuga minus nobis consequatur aperiam tempore voluptatum totam eaque?</p>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>100% width untill lg screens, then container</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae aspernatur labore, inventore natus ea distinctio dolore eum velit. Vitae cumque eaque corrupti laudantium aliquam corporis? Nulla, saepe? Maxime, itaque rerum?</p>
+    </div>
+
+    <div class="container-xl my-5">
+        <h2>100% width untill xl screens, then container</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam consequatur sunt neque dignissimos ipsum aliquam necessitatibus dolorum, aut mollitia beatae nam, inventore praesentium. Cum magnam deleniti omnis ratione sed.</p>
+    </div>
+
+
+    <br><br><br><br><hr><br><br><br><br>
+
+
+
+    <!-- E. Grid Layout -->
+    E. Grid Layout <br><br>
+
+    <!-- basic grid -->
+    Topic-1-basic grid <br><br>
+    <div class="container-lg my-5">
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 4</div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><hr><br><br>
+
+    <!-- column widths -->
+    Topic-2-column widths <br><br>
+    <div class="container-lg my-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><hr><br><br>
+
+    <!-- responsive column widths -->
+    Topic-3-responsive column widths <br><br>
+    <div class="container-lg my-5">
+        <div class="row">
+            <div class="col-sm-4 col-lg-6">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+        </div>
+    </div>
+
+    <br><br><hr><br><br>
+
+    <!-- justifying columns -->
+    Topic-4-justifying columns <br><br>
+    <div class="row justify-content-end">
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
